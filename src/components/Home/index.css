@@ -1,0 +1,36 @@
+.homeComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cityInput {
+  width: 55%;
+}
+
+.table {
+  margin: 20px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.citiesSection {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cityName {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .citiesSection {
+    width: 430px;
+  }
+}

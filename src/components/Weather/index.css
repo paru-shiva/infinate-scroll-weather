@@ -1,0 +1,50 @@
+.weatherComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherInfoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherHeading {
+  color: goldenrod;
+}
+
+.weatherCard {
+  background-color: rgb(193, 193, 115);
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardHeading {
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.weatherData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.dataHead {
+  font-size: 18px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.weatherIcon {
+  width: 40px;
+}

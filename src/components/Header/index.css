@@ -1,0 +1,21 @@
+.headerComponent {
+  height: 60px;
+  background-color: black;
+  margin-bottom: 40px;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.webLogo {
+  height: 100%;
+  margin-left: 6px;
+}
+
+.profile {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}

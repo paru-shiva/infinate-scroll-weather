@@ -1,0 +1,14 @@
+.notFoundComponent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  height: 100vh;
+  color: white;
+}
+
+.notFoundImage {
+  width: 120px;
+  margin-bottom: 20px;
+}
